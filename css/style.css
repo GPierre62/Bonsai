@@ -1,3 +1,41 @@
+html{
+  overflow-x: none;
+}
 .bckImg{
   background-image: url(../img/payments-banner-graphic.png);
+}
+.bckImg h1{
+  color: white;
+}
+.bckImg p{
+  color: white;
+}
+footer ul{
+  list-style: none;
+}
+.textocenter {
+    display: flex;
+    /*vertical-align: middle;
+    float: none;*/
+    align-items: center;
+}
+.blocDroite{
+  border-left: 1px solid black;
+}
+.blocGauche{
+  border-right:1px solid black;
+}
+.fnddulimage1{
+  background-color: #7CD5EF;
+}
+.fnddulimage2{
+  background-color: #8080BE;
+}
+.img-arrondie{
+  border-radius: 15px;
+}
+
+.colFoot{
+  background-color: #242629;
+  color: #939291;
 }
