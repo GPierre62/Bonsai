@@ -1,22 +1,35 @@
 html{
-  overflow-x: none;
+  overflow-x: hidden;
 }
-.bckImg{
+
+/* CSS HELENE */
+.navbar{
+  margin-bottom: 0;
+}
+
+/* CSS HELENE */
+
+#Home{
   background-image: url(../img/payments-banner-graphic.png);
 }
-.bckImg h1{
+.bubule{
+  position: fixed;
+  padding: 1em;
+  top: 90%;
+  right: 2.5%;
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px grey;
+  z-index: 99;
+  background:#8080BE;
+}
+.bidule h1{
   color: white;
 }
-.bckImg p{
+.bidule p{
   color: white;
-}
-footer ul{
-  list-style: none;
 }
 .textocenter {
     display: flex;
-    /*vertical-align: middle;
-    float: none;*/
     align-items: center;
 }
 .blocDroite{
@@ -38,4 +51,7 @@ footer ul{
 .colFoot{
   background-color: #242629;
   color: #939291;
+}
+footer ul{
+  list-style: none;
 }
