@@ -1,18 +1,7 @@
 html{
   overflow-x: hidden;
 }
-
-/* CSS HELENE */
-.navbar{
-  margin-bottom: 0;
-}
-
-/* CSS HELENE */
-
-#Home{
-  background-image: url(../img/payments-banner-graphic.png);
-}
-.bubule{
+.bubule{/*petite bulle sur fond violet en fixed*/
   position: fixed;
   padding: 1em;
   top: 90%;
@@ -22,15 +11,46 @@ html{
   z-index: 99;
   background:#8080BE;
 }
+/******* section Home ********/
+#Home{
+  background-image: url(../img/payments-banner-graphic.png);
+  height: 85vh;
+}
+.navbar{/*pour enlever le margin de base de bootstrap*/
+  margin-bottom: 0;
+}
+.navbar-left li img{
+  height: 7vh;
+  padding-top: 1.8vh;
+}
+.navbar-left li p{
+  line-height: 9vh;
+  color: white;
+  padding-left: 1vw;
+  font-size: 1.25em;
+}
+
+.navbar-right a{
+  color: white;
+  font-size: 0.9em;
+}
+.navbar-right a:hover{
+  color:black;
+}
+
 .bidule h1{
   color: white;
 }
 .bidule p{
   color: white;
 }
+.spaceToplaboom{
+  margin-top: 15vh;
+}
+/******* section Home ********/
 .textocenter {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .blocDroite{
   border-left: 1px solid black;
