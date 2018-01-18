@@ -90,20 +90,35 @@ body{
   height: 11vh;
 }
 
+/******* section Pricing ********/
 
+
+/******* section img-et-Text ********/
+.Dcale{
+  transform: translateY(0vh 5vh);
+}
 .textocenter {
   display: flex;
   align-items: center;
 }
 .fnddulimage1{
   background-color: #7CD5EF;
+  overflow-y: hidden;
+  height: 78vh;
 }
 .fnddulimage2{
   background-color: #8080BE;
+  overflow-y: hidden;
+  height: 78vh;
 }
 .img-arrondie{
   border-radius: 15px;
 }
+.Dcale{
+  transform: translateY(11vh);
+}
+/**********ZoneReady***********/
+/**********footer***********/
 
 .colFoot{
   background-color: #242629;
