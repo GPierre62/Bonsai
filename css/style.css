@@ -1,6 +1,9 @@
 html{
   overflow-x: hidden;
 }
+body{
+  font-family: 'Raleway', sans-serif;
+}
 .bubule{/*petite bulle sur fond violet en fixed*/
   position: fixed;
   padding: 1em;
@@ -28,6 +31,7 @@ html{
   color: white;
   padding-left: 1vw;
   font-size: 1.25em;
+  letter-spacing: 0.3em;
 }
 
 .navbar-right a{
@@ -43,20 +47,53 @@ html{
 }
 .bidule p{
   color: white;
+  font-size: 1.5em;
+  margin-top: 4vh;
 }
 .spaceToplaboom{
   margin-top: 15vh;
 }
-/******* section Home ********/
+.btnhome{
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 0.8em;
+  color: #7E7EB1;
+  margin-top: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+/******* section Infofo ********/
+#Infofo .row{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.blocDroite{
+  /*border-left: 1px solid black;*/
+}
+.info1{
+  height: 11vh;
+}
+
+.blocCentre{
+  border-left: 1px solid #DDD;
+  border-right:1px solid #DDD;
+}
+.info2{
+  height: 11vh;
+}
+
+.blocGauche{
+  /*border-right:1px solid black;*/
+}
+.info3{
+  height: 11vh;
+}
+
+
 .textocenter {
   display: flex;
   align-items: center;
-}
-.blocDroite{
-  border-left: 1px solid black;
-}
-.blocGauche{
-  border-right:1px solid black;
 }
 .fnddulimage1{
   background-color: #7CD5EF;
@@ -74,4 +111,7 @@ html{
 }
 footer ul{
   list-style: none;
+}
+.nespacefoot{
+  margin-top: 8vh;
 }
