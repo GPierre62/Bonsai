@@ -13,6 +13,7 @@ body{
   box-shadow: 0px 4px 10px grey;
   z-index: 99;
   background:#8080BE;
+  color: White;
 }
 
 /******* section Home ********/
@@ -26,6 +27,7 @@ body{
 .navbar-left li img{
   height: 7vh;
   padding-top: 1.8vh;
+  margin-left: 1vh;
 }
 .navbar-left li p{
   line-height: 9vh;
@@ -41,6 +43,12 @@ body{
 }
 .navbar-right a:hover{
   color:black;
+}
+.icon-bar{
+  background-color: grey;
+}
+.navbar-toggle{
+
 }
 
 .bidule h1{
@@ -121,6 +129,7 @@ body{
   color: white;
   padding-top: 3vh;
   padding-bottom: 3vh;
+  margin-bottom: 0;
 }
 
 /******* section img-et-Text ********/
@@ -130,6 +139,12 @@ body{
 .textocenter {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+}
+.textocenter1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
 }
 .fnddulimage1{
   background-color: #7CD5EF;
