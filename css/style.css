@@ -14,6 +14,7 @@ body{
   z-index: 99;
   background:#8080BE;
 }
+
 /******* section Home ********/
 #Home{
   background-image: url(../img/payments-banner-graphic.png);
@@ -62,6 +63,7 @@ body{
   padding-top: 1vh;
   padding-bottom: 1vh;
 }
+
 /******* section Infofo ********/
 #Infofo .row{
   margin-top: 10vh;
@@ -91,7 +93,35 @@ body{
 }
 
 /******* section Pricing ********/
+#Pricing{
+  background-color: #F6F9FB;
+  border-top: 1px solid #DDD;
+}
+#Pricing .row{
+  margin-top: 6vh;
+}
 
+.Princingtext{
+  font-size: 1.7em;
+  color: #777777;
+  margin-bottom: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.Dolls{
+  color:#8080BE;
+  font-size: 5em;
+}
+.Pricingtext2{
+  font-size: 2em;
+}
+.bck-ACH{
+  background-color: #4C535C;
+}
+.bck-ACH p{
+  color: white;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
 
 /******* section img-et-Text ********/
 .Dcale{
@@ -117,9 +147,11 @@ body{
 .Dcale{
   transform: translateY(11vh);
 }
-/**********ZoneReady***********/
-/**********footer***********/
 
+/**********ZoneReady***********/
+
+
+/**********footer***********/
 .colFoot{
   background-color: #242629;
   color: #939291;
